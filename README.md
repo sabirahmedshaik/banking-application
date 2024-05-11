@@ -8,7 +8,7 @@ Rest Client should be able to:
   <li>Make a withdrawal</li>
 </ol>
 
-REST APIs for Employee Resource:
+REST APIs for Account Resource:
 
 |  HTTP Method  |           URL Path         |  Status Code  |           Description            |
 | :-------------|:---------------------------| :-------------| :--------------------------------|

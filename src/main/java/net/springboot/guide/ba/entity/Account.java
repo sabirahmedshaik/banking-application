@@ -19,7 +19,7 @@ public class Account {
     private Long id;
 
     @Column(name = "holder_name")
-    private String accountholderName;
+    private String accountHolderName;
 
     @Column(name = "balance")
     private double balance;

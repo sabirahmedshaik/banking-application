@@ -14,5 +14,5 @@ REST APIs for Employee Resource:
 | :-------------|:---------------------------| :-------------| :--------------------------------|
 | Get           | /api/accounts/{id}         |  200 (OK)     | Get the account details by id    |
 | Post          | /api/accounts              |  201 (Created)| Create a new bank account        |
-| Post          | /api/accounts/{id}/deposit |  201          | Make a deposit                   |
-| Post          | /api/accounts/{id}/withdraw|  201          | Make a withdraw                  |
+| Post          | /api/accounts/{id}/deposit |  200 (OK)     | Make a deposit                   |
+| Post          | /api/accounts/{id}/withdraw|  200 (OK      | Make a withdraw                  |

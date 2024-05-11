@@ -37,4 +37,12 @@ public class AccountController {
         AccountDto account = accountService.deposit(id, amount);
         return ResponseEntity.ok(account);
     }
+
+    //Build Withdraw Amount REST API
+    @PostMapping("{id}/withdraw")
+    public ResponseEntity<AccountDto> withdraw(@PathVariable("id") Long id, @RequestBody Map<String, Double> request){
+        Double amount = request.get("amount");
+        AccountDto account = accountService.withdraw(id, amount);
+        return ResponseEntity.ok(account);
+    }
 }
